@@ -1,21 +1,22 @@
 {
   "name": "Simple-Server",
   "version": "1.0.0",
-  "description": "A simple Express Server for bignners",
+  "description": "A simple Express Server for bignners or those who want to setup a quick express server",
   "main": "app.js",
   "dependencies": {
     "express": "^4.13.4",
+    "http": "0.0.0",
     "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
-    "start":"node ./app",
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/archerking/lite-express-local-server.git"
   },
-  "author": "Avnish Singh",
+  "author": "Avnish Singh <avnish.si@gmail.com>",
   "license": "ISC"
 }

@@ -14,6 +14,4 @@ app.use(express.static(path.join(__dirname, 'app')));
  */
 //app.all('/', function(err, req, res){});
 
-var server = app.listen('8080', '127.0.0.1', function(){
-	console.log('Server listening at:8080');
-});
+module.exports = app;
